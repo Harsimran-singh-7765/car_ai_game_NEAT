@@ -25,12 +25,12 @@ PLAYER_CAR = pygame.transform.scale(PLAYER_CAR, (50, 100))
 ENEMY_CAR = pygame.transform.scale(ENEMY_CAR, (50, 100))
 TRACK_BG = pygame.transform.scale(TRACK_BG, (WIDTH, HEIGHT))
 
-FPS = 100
+FPS = 500
 LANES = [75, 175, 275, 375]  # 4-lane centers
 GENERATION = 0
 
 # Toggle between 'train' and 'test'
-RUN_MODE = 'test'
+RUN_MODE = 'train'
 
 class Player:
     def __init__(self):
