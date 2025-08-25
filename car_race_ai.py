@@ -30,7 +30,7 @@ LANES = [75, 175, 275, 375]  # 4-lane centers
 GENERATION = 0
 
 # Toggle between 'train' and 'test'
-RUN_MODE = 'train'
+RUN_MODE = 'test'
 
 class Player:
     def __init__(self):
